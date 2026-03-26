@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Exercice 4 - Sélecteurs contextuels</title>
+  <style>
+    div h2 {
+      color: crimson;
+    }
+
+    div > p {
+      padding-left: 20px;
+    }
+
+    h2 + p {
+      border-left: 3px solid #3498db;
+    }
+
+    #section1 li {
+      font-weight: bold;
+    }
+
+    div p, div li {
+      font-family: Georgia, serif;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="section1">
+    <h2>Titre Section 1</h2>
+    <p>Paragraphe dans section 1</p>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
+  </div>
+
+  <div id="section2">
+    <h2>Titre Section 2</h2>
+    <p>Premier paragraphe</p>
+    <p>Deuxième paragraphe</p>
+  </div>
+
+  <h2>Titre hors section</h2>
+  <p>Paragraphe hors section</p>
+
+
+</body>
+</html>
