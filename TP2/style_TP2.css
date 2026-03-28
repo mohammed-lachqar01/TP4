@@ -1,0 +1,80 @@
+
+body {
+  background-color: aqua;
+  color: black;
+}
+
+header, #entete {
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: navy;
+}
+h4 {
+  color: red;
+  text-decoration: underline;
+}
+a:link {
+  color: navy;
+  text-decoration: underline;
+}
+a:hover {
+  background-color: navy;
+  color: silver;
+  text-decoration: underline;
+}
+a:visited,a:active {
+  color: red;
+  text-decoration: underline;
+}
+p::first-letter {
+  color: red;
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 14em;
+}
+p {
+  text-align: justify;
+}
+table {
+  border: 2px solid #696969;
+  border-collapse: collapse;
+}
+
+caption {
+  caption-side: bottom;
+}
+
+td, th {
+  border: 1px dashed black;
+  padding: 6px;
+}
+
+th {
+  font-variant: small-caps;
+  text-decoration: underline;
+}
+.E1 {
+  text-align: left;
+  background-color: yellow;
+}
+.E2 {
+  text-align: center;
+  background-color: lime;
+}
+ol {
+  list-style-type: lower-alpha;
+}
+
+ul ul {
+  list-style-type: square;
+}
+
+img.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
