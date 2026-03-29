@@ -43,11 +43,6 @@ table {
   border: 2px solid #696969;
   border-collapse: collapse;
 }
-
-caption {
-  caption-side: bottom;
-}
-
 td, th {
   border: 1px dashed black;
   padding: 6px;
